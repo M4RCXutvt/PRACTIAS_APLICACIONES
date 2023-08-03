@@ -311,7 +311,7 @@ include("layout/header.php");
                         completely free and without attribution!</p>
                     <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on
                         unDraw &rarr;</a>
-                </div>
+                </div>  
             </div>
 
             <!-- Approach -->
