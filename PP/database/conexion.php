@@ -10,7 +10,7 @@ $conexion=new mysqli($server,$user,$pass,$bd);
 if($conexion->connect_errno){
     die("fallo");
 }else{
-    echo("Se conecto");
+    echo("Se conecto la base de datos");
 }
 
 
