@@ -1,17 +1,12 @@
 <?php
-$server='localhost';
-$user='root';
-$pass='';
-$bd='pv';
+$hola='localhost';
+$usuario='root';
+$contra='';
+$DB='chapultepec';
 
 
-$conexion=new mysqli($server,$user,$pass,$bd);
+$conexion=new mysqli($hola,$usuario,$contra,$DB);
 
-if($conexion->connect_errno){
-    die("fallo");
-}else{
-    echo("Se conecto la Base de Datos");
-}
 
 
 ?>
